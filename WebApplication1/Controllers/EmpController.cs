@@ -24,5 +24,13 @@ namespace WebApplication1.Controllers
         {
             return a + b;
         }
+        public IActionResult Form1()
+        {
+            return View();
+        }
+        public IActionResult Form2()
+        {
+            return View();
+        }
     }
 }
