@@ -3,6 +3,26 @@
 *@
 @{
 }
+
+Date : @DateTime.Now.ToShortDateString()
+@{
+    int a = 10;
+    int b = 5;
+    int s = a + b;
+    int sum = s;
+    <h1> sum = @s</h1>
+
+}
+@if (5>2 )
+{
+   <h1> Yes 5 is greater than 2 </h1>
+}
+else
+{
+   <h1> N 15 is greater than 2 </h1>
+}
+
+ 
 <form method="post" action="/process-form">
   <table>
     <tr>
@@ -23,9 +43,10 @@
       <td><label for="age">Age:</label></td>
       <td>
         <select id="age" name="age" required>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
+                    @for(int i=1; i<4 ; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
         </select>
       </td>
     </tr>
