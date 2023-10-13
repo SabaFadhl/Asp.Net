@@ -36,11 +36,15 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Form2(int n1, int n2)
         {
+            ViewBag.n1 = n1;
+            ViewBag.n2 = n2;
+            ViewBag.sum = n1 + n2;
             return View();
         }
         [HttpGet]
         public IActionResult Form3()
         {
+            
             return View();
         }
         [HttpPost]

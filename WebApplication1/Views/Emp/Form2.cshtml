@@ -8,18 +8,18 @@
   <table>
     <tr>
       <td><label for="input1">No1:</label></td>
-      <td><input type="text" id="input1" name="n1"></td>
+      <td><input type="text" id="input1" name="n1" "@ViewBag.n1"></td>
     </tr>
     <tr>
       <td><label for="input2">No 2:</label></td>
-      <td><input type="text" id="input2" name="n2"></td>
+      <td><input type="text" id="input2" name="n2" value="@ViewBag.n2"></td>
     </tr>
     <tr>
       <td><label for="input3">Result:</label></td>
       <td><input type="text" id="input3" name="result"></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="submit" value="Sum"></td>
+      <td colspan="2"><input type="submit" value="@ViewBag.sum"></td>
     </tr>
   </table>
 </form>
