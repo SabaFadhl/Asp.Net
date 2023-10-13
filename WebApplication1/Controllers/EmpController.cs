@@ -39,6 +39,7 @@ namespace WebApplication1.Controllers
             ViewBag.n1 = n1;
             ViewBag.n2 = n2;
             ViewBag.sum = n1 + n2;
+            ViewData["sum"] = n1 + n2;
             return View();
         }
         [HttpGet]

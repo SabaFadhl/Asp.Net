@@ -8,7 +8,7 @@
   <table>
     <tr>
       <td><label for="input1">No1:</label></td>
-      <td><input type="text" id="input1" name="n1" "@ViewBag.n1"></td>
+      <td><input type="text" id="input1" name="n1" value = "@ViewBag.n1"></td>
     </tr>
     <tr>
       <td><label for="input2">No 2:</label></td>
@@ -16,10 +16,10 @@
     </tr>
     <tr>
       <td><label for="input3">Result:</label></td>
-      <td><input type="text" id="input3" name="result"></td>
+      <td><input type="text" id="input3" name="result" value = "@ViewData["sum"]"></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="submit" value="@ViewBag.sum"></td>
+      <td colspan="2"><input type="submit"x></td>
     </tr>
   </table>
 </form>
