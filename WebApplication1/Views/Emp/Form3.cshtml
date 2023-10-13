@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post" action="/process-form">
+  <table>
+    <tr>
+      <td><label for="name">Name:</label></td>
+      <td><input type="text" id="name" name="status" required></td>
+    </tr>
+    <tr>
+      <td><label>Gender:</label></td>
+      <td>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="age">Age:</label></td>
+      <td>
+        <select id="age" name="age" required>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="status">Status:</label></td>
+      <td>
+        <input type="checkbox" id="status" name="status">
+        <label for="status">Student</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="notes">Notes:</label></td>
+      <td><textarea id="notes" name="notes"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" value="Submit"></td>
+    </tr>
+  </table>
+</form>

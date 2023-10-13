@@ -38,5 +38,15 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Form3()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Form3(string tname, string gender, int age, string status, string notes)
+        {
+            return View();
+        }
     }
 }
