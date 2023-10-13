@@ -28,7 +28,13 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        [HttpGet]
         public IActionResult Form2()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Form2(int n1, int n2)
         {
             return View();
         }
