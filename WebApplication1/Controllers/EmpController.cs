@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Session;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApplication1.Controllers
 {
@@ -79,6 +81,35 @@ namespace WebApplication1.Controllers
         public IActionResult back()
         {
             return RedirectToAction("Form4");
+        }
+        [HttpGet]
+        public IActionResult Form6()
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Form6(int n1, int n2)
+        {
+            int sum = n1 + n2;
+            HttpContext.Session.SetString("sum", sum.ToString());
+            HttpContext.Session.SetString("n1", n1.ToString());
+            HttpContext.Session.SetString("n2", n2.ToString());
+            return RedirectToAction("Form7");
+        }
+        [HttpGet]
+        public IActionResult Form7()
+        {
+            ViewBag.n1 = HttpContext.Session.GetString("n1");
+            ViewBag.n2 = HttpContext.Session.GetString("n2");
+            ViewBag.total = HttpContext.Session.GetString("sum");
+            return View();
+        }
+        [HttpPost]
+        [ActionName("Form7")]
+        public IActionResult backTo5()
+        {
+            return RedirectToAction("Form6");
         }
     }
 }
