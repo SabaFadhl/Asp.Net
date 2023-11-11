@@ -111,5 +111,35 @@ namespace WebApplication1.Controllers
         {
             return RedirectToAction("Form6");
         }
+        [HttpGet]
+        public IActionResult Login()
+        {
+            var data = Request.Cookies["UserInfo"];
+            if (data == null)
+                return View();
+            else
+                return RedirectToAction("MyPage");
+        }
+        [HttpPost]
+        public IActionResult Login(string user, string pass, string rem)
+        {
+            if ( rem != null)
+            {
+                CookieOptions obj = new CookieOptions();
+                obj.Expires = DateTime.Now.AddDays(7);
+                Response.Cookies.Append("UserInfo", user, obj);
+
+            }
+            if (user == "asp" && pass == "asp")
+            {
+                return RedirectToAction("MyPage");
+            }
+            return View();
+        }
+        [HttpGet]
+        public string MyPage()
+        {
+            return "MyPage" ;
+        }
     }
 }
