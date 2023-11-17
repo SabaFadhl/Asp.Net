@@ -8,65 +8,101 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication1
 build_property.RootNamespace = WebApplication1
-build_property.ProjectDir = C:\Users\PC\source\repos\WebApplication1\WebApplication1\
+build_property.ProjectDir = H:\asp videos\asp.net\Asp.Net\WebApplication1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\source\repos\WebApplication1\WebApplication1
+build_property.MSBuildProjectDirectory = H:\asp videos\asp.net\Asp.Net\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form1.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm0xLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form2.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm0yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form3.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm0zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form4.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm00LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form5.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm01LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form6.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm02LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Emp/Form7.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Form7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEZvcm03LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Emp/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/_EmpLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FbXBMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/WebUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/WebUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/WebUsers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/WebUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/WebUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
+[H:/asp videos/asp.net/Asp.Net/WebApplication1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx
